@@ -1,0 +1,43 @@
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local development configuration
+appsettings.Development.json
+
+# ASP.NET Core HTTPS development certificates
+*.pfx
+*.p12
+
+# Publish outputs
+publish/
+artifacts/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings (ignore by default)
+.idea/
